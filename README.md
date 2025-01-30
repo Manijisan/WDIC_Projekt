@@ -41,4 +41,4 @@ client_socket.close()
 
 ![Image](https://github.com/user-attachments/assets/beb415cb-7561-4342-84ff-72dc90a9ffbe)
 
-Wie man hier sehen kann wurde die Temperatur und die Luffeuchtigkeit erfolgreich ausgelesen und an den Zweiten Raspberry gesendet.
+Wie man hier sehen kann wurde die Temperatur und die Luffeuchtigkeit erfolgreich ausgelesen und an den Zweiten Raspberry gesendet. Die Daten werden nun an den Zweiten Raspi (Patricks Raspi), der in unserem fall als TCP Server aggiert.
