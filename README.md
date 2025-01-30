@@ -5,7 +5,7 @@ Ziel unseres WDIC Projekts war es die Daten eines DHT2402 (Temperatursensors) au
 
 # Code auf Sender
 
-Damit wir die Daten des Sensors
+Damit wir die Daten des Sensors auslesen können haben ich mithilfe von VNC Real Viewer direk auf dem raspberry pi mit thonny programmiert.
 
 ```
 import adafruit_dht
@@ -37,3 +37,8 @@ while True:
 
 client_socket.close()
 ```
+Dieses script gab uns folgende ausgabe
+
+![Image](https://github.com/user-attachments/assets/beb415cb-7561-4342-84ff-72dc90a9ffbe)
+
+Wie man hier sehen kann wurde die Temperatur und die Luffeuchtigkeit erfolgreich ausgelesen und an den Zweiten Raspberry gesendet.
