@@ -37,7 +37,7 @@ while True:
 
 client_socket.close()
 ```
-Dieses script gab uns folgende ausgabe
+# Ausgabe des Script
 
 ![Image](https://github.com/user-attachments/assets/beb415cb-7561-4342-84ff-72dc90a9ffbe)
 
