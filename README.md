@@ -4,7 +4,7 @@ Ziel unseres WDIC Projekts war es die Daten eines DHT2402 (Temperatursensors) au
 ![Image](https://github.com/user-attachments/assets/9a124d5c-8693-411b-bd51-60a1cc4a68ea)
 
 # Code auf Sender
-´´´
+'''
 import adafruit_dht
 import board
 import socket
@@ -33,4 +33,4 @@ while True:
     time.sleep(2)  
 
 client_socket.close()
-´´´
+'''
