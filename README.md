@@ -37,3 +37,5 @@ while True:
 
 client_socket.close()
 ```
+
+# Code auf Raspberry pi, um Daten zu empfangen:
